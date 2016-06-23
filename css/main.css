@@ -11,33 +11,42 @@ body {
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	top: 0%;
+	left: 0%;
 }
 
 /* Navigation Bar */
-.nav-image{
+.navbar-image{
 	background-image: url("../img/bubble2.jpg");
 	background-position: absolute;
 	background-repeat: no-repeat;
-	background-size: 90% 90%;
+	background-size: 100% 100%;
 	position: fixed;
 	width: 9em;
 	height: 9em;
 	margin-top: 2em;
-	margin-left: -12em;
+	margin-left: -14em;
 }
-.btn-navbar {
-	margin: 40% 0% 0% 25%;
+.navbar-image img {
+	width: 4em;
+	height: 4em;
+	margin-top: 30%;
+	margin-left: 28%;
 }
 .header-name {
 	margin-left: 68em;
+	width: 30em;
+}
+.navbar {
+	margin-top: -50%;
 }
 
-.navbar {
+.navbar ul{
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
 	position: fixed;
-	margin: 11em 0em 0em -14em;
+	margin: 11em 0em 0em -13em;
 }
 .navbar li {
 	text-align: center;
@@ -45,16 +54,17 @@ body {
 	width: 7em;
 	height: 7em;
 	background-image: url("../img/bubble2.jpg");
-	background-position: absolute;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 90% 90%;
+	background-size: 80% 80%;
+	margin-top: 0%;
 }
 .navbar ol {
 	list-style-type: none;
 }
 
 .navbar li a {
-	margin: 35% 50% 40% 20%;
+	margin: 40% 25% 25% 25%;
 	display: inline-block;
 	color: black;
 	font-size: 120%;
@@ -72,6 +82,7 @@ body {
 	text-align: center;
 	position: center;
 	margin-top: 9%;
+	width: 100%;
 }
 
 /* About Me Page */
