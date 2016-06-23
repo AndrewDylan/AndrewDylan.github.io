@@ -1,48 +1,63 @@
 body {
-	background-image: url("../img/beach-under-view.jpg");
+	font-family: "Damion", cursive;
+}
+
+/* Backgrounds */
+
+.first-background {
+	background-image: url("../img/beach-island.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	font-family: "Damion", cursive;
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 /* Navigation Bar */
 .nav-image{
-	background-image: url("../img/message-plane.jpg");
+	background-image: url("../img/bubble2.jpg");
 	background-position: absolute;
 	background-repeat: no-repeat;
 	background-size: 90% 90%;
-	position: absolute;
-	width: 80em;
-	height: 7em;
+	position: fixed;
+	width: 9em;
+	height: 9em;
 	margin-top: 2em;
-	margin-left: -10em;
+	margin-left: -12em;
+}
+.btn-navbar {
+	margin: 40% 0% 0% 25%;
 }
 .header-name {
 	margin-left: 68em;
 }
 
 .navbar {
-	width: 80em;
-	height: 7em;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	position: absolute;
-	margin: 4em 0em 0em 13em;
+	position: fixed;
+	margin: 11em 0em 0em -14em;
 }
 .navbar li {
-	float: left;
+	text-align: center;
 	list-style-type: none;
-	margin-left: 4em;
+	width: 7em;
+	height: 7em;
+	background-image: url("../img/bubble2.jpg");
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
 }
 .navbar ol {
 	list-style-type: none;
 }
 
 .navbar li a {
+	margin: 35% 50% 40% 20%;
 	display: inline-block;
-	color: blue;
-	font-size: 2em;
+	color: black;
+	font-size: 120%;
 	text-align: center;
 	text-decoration: none;
 }
