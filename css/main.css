@@ -1,0 +1,71 @@
+body {
+	background-image: url("../img/beach-under-view.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: "Damion", cursive;
+}
+
+/* Navigation Bar */
+.nav-image{
+	background-image: url("../img/message-plane.jpg");
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	position: absolute;
+	width: 80em;
+	height: 7em;
+	margin-top: 2em;
+	margin-left: -10em;
+}
+.header-name {
+	margin-left: 68em;
+}
+
+.navbar {
+	width: 80em;
+	height: 7em;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+	margin: 4em 0em 0em 13em;
+}
+.navbar li {
+	float: left;
+	list-style-type: none;
+	margin-left: 4em;
+}
+.navbar ol {
+	list-style-type: none;
+}
+
+.navbar li a {
+	display: inline-block;
+	color: blue;
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navbar li a:hover{
+}
+
+/* Intro Page Message */
+
+.intro-message {
+	font-size: 10em;
+	text-align: center;
+	position: center;
+	margin-top: 9%;
+}
+
+/* About Me Page */
+
+.developement {
+	background-image: url("../img/bubble1.jpg");
+	background-size: 100% 100%;
+	margin-top: 30em;
+}
+.developement h2 {
+	text-align: center;
+}
