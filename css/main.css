@@ -15,17 +15,29 @@ body {
 	left: 0%;
 }
 
+.second-background {
+	background-image: url("../img/ocean-fish.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin-top: 46.5%;
+}
+
 /* Navigation Bar */
 .navbar-image{
 	background-image: url("../img/bubble2.jpg");
-	background-position: absolute;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: fixed;
 	width: 9em;
 	height: 9em;
 	margin-top: 2em;
-	margin-left: -14em;
+	margin-left: 2em;
+	top: 0%;
 }
 .navbar-image img {
 	width: 4em;
@@ -38,7 +50,7 @@ body {
 	width: 30em;
 }
 .navbar {
-	margin-top: -50%;
+	margin-top: 0;
 }
 
 .navbar ul{
@@ -46,7 +58,8 @@ body {
 	padding: 0;
 	overflow: hidden;
 	position: fixed;
-	margin: 11em 0em 0em -13em;
+	margin: 11em 0em 0em 3em;
+	top: 0%;
 }
 .navbar li {
 	text-align: center;
@@ -57,14 +70,14 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 80% 80%;
-	margin-top: 0%;
+	margin-top: 10%;
 }
 .navbar ol {
 	list-style-type: none;
 }
 
 .navbar li a {
-	margin: 40% 25% 25% 25%;
+	margin: 0em;
 	display: inline-block;
 	color: black;
 	font-size: 120%;
@@ -90,8 +103,31 @@ body {
 .developement {
 	background-image: url("../img/bubble1.jpg");
 	background-size: 100% 100%;
-	margin-top: 30em;
+	margin-top: 13%;
+	margin-left: 20%;
+	position: absolute;
+	width: 30em;
+	height: 30em;
+	text-align: center;
 }
 .developement h2 {
+	text-align: center;
+}
+.developement p {
+	font-size: 200%
+}
+/* Career Page */
+
+.career {
+	background-image: url("../img/bubble1.jpg");
+	background-size: 100% 100%;
+	margin-top: 27%;
+	margin-left: 50%;
+	position: absolute;
+	width: 30em;
+	height: 30em;
+	text-align: center;
+}
+.career h2 {
 	text-align: center;
 }
