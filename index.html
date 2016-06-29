@@ -28,6 +28,39 @@
 		<div class="row background-row-three">
 			<div class="col-lg-6 third-background"></div>
 		</div>
+		<!-- Contact Page -->
+		<div class = "row contact-row">
+		<form action="https://formspree.io/andrew.canter.5@gmail.com" method="POST">
+			<div class="col-lg-12 text-center">
+            	<h2 class="section-heading" style="color: white;">Contact me</h2>
+                <h3 class="section-subheading text-muted" style="color: white;">Let me know if you have any questions or suggestions.</h3>
+            </div>
+            <div class="col-md-6">
+          		<div class="form-group">
+              		<input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." name="name">
+              		<p class="help-block text-danger"></p>
+          		</div>
+          		<div class="form-group">
+              		<input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." name="_replyto">
+              		<p class="help-block text-danger"></p>
+          		</div>
+          		<div class="form-group">
+              		<input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number." name="phone">
+              		<p class="help-block text-danger"></p>
+          		</div>
+      		</div>
+      		<div class="col-md-6">
+          		<div class="form-group">
+              		<textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." name="message"></textarea>
+              		<p class="help-block text-danger"></p>
+          		</div>
+      		</div>
+      		<div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+            </div>
+		</form>
+		</div>
 		</div>
 
 		<!-- Head Page -->
@@ -55,16 +88,16 @@
 			<div class="col-md-12 works">
 				<p> My Projects! </p>
 				<!-- Using divs for works -->
-				<div class="top-row-work" id="top-row-one"></div>
-				<div class="top-row-work" id="top-row-two"></div>
-				<div class="top-row-work" id="top-row-three"></div>
+				<div class="top-row-work" id="top-row-one"><a href="http://codepen.io/NoboFish/pen/dXvVbg/"><img src="img/tic-tac-toe.jpg" id="works-images"/></a></div>
+				<div class="top-row-work" id="top-row-two"><a href="http://codepen.io/NoboFish/pen/rLyNWb"><img src="img/heroes-quest.jpg" id="works-images"/></a></div>
+				<div class="top-row-work" id="top-row-three"><a href="http://codepen.io/NoboFish/pen/pbejyO"><img src="img/adventure-game.jpg" id="works-images"/></a></div>
 			</div>
 		</div>
 		<div class="row works-page">
 			<div class="col-md-12 works">
-				<div class="bottom-row-work" id="bottom-row-one"></div>
-				<div class="bottom-row-work" id="bottom-row-two"></div>
-				<div class="bottom-row-work" id="bottom-row-three"></div>
+				<div class="bottom-row-work" id="bottom-row-one"><a href="http://codepen.io/NoboFish/pen/beBJqG"><img src="img/garfield-story.jpg" id="works-images"/></a></div>
+				<div class="bottom-row-work" id="bottom-row-two"><a href="http://codepen.io/NoboFish/pen/BzQVRW"><img src="img/bubble-jquery.jpg" id="works-images"/></a></div>
+				<div class="bottom-row-work" id="bottom-row-three"><a href="http://codepen.io/NoboFish/pen/JKbQmW"><img src="img/guessing-game.jpg" id="works-images"/></a></div>
 			</div>
 		</div>
 

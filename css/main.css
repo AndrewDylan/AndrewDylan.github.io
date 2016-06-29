@@ -131,6 +131,7 @@ body {
 	font-size: 120%;
 	text-align: center;
 	text-decoration: none;
+	margin-top: 40%;
 }
 
 .navbar li a:hover{
@@ -148,7 +149,7 @@ body {
 }
 .header-name {
 	margin-left: 75%;
-	width: 30em;
+	width: 24%;
 	position: relative;
 }
 
@@ -157,7 +158,7 @@ body {
 .developement {
 	background-image: url("../img/bubble1.jpg");
 	background-size: 100% 100%;
-	margin-top: 13%;
+	margin-top: 10%;
 	margin-left: 20%;
 	position: relative;
 	width: 30em;
@@ -221,6 +222,13 @@ body {
 	position: relative;
 	display: inline-block;
 }
+#works-images {
+	position: absolute;
+	width: 85%;
+	height: 85%;
+	border-radius: 90em;
+	margin: 7.5% 0 0 7.5%;
+}
 #top-row-one {
 	margin-left: 28%;
 }
@@ -232,5 +240,20 @@ body {
 	margin-top: 10%;
 	margin-left: 43%;
 	font-size: 300%;
+}
+
+/* Contact Page */
+form {
+	position: absolute;
+	background-color: #2e2e1f;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50%;
+	margin-left: 0;
+}
+.contact-row {
+	width: 100%;
+	height: 50%;
 }
 
