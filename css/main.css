@@ -1,16 +1,58 @@
+html {
+	width: 100%;
+}
+
 body {
 	font-family: "Damion", cursive;
+	width: 100%;
+}
+.container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.intro-page {
+	position: relative;
+}
+.aboutMe-page {
+	position: relative;
+}
+.works-page {
+	position: relative;
+}
+.navbar-page {
+	position: relative;
 }
 
 /* Backgrounds */
+#background-wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.background-row {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.background-row-two {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.background-row-three {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
 
 .first-background {
 	background-image: url("../img/beach-island.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 53em;
-	position: absolute;
+	height: 100%;
+	position: relative;
 	top: 0%;
 	left: 0%;
 }
@@ -20,11 +62,9 @@ body {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 53em;
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	margin-top: 52.7em;
+	height: 100%;
+	position: relative;
+	margin-top: ;
 }
 
 .third-background {
@@ -32,11 +72,10 @@ body {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 53em;
-	position: absolute;
+	height: 100%;
+	position: relative;
 	top: 0%;
 	left: 0%;
-	margin-top: 105.4em;
 }
 
 /* Navigation Bar */
@@ -57,10 +96,7 @@ body {
 	margin-top: 30%;
 	margin-left: 28%;
 }
-.header-name {
-	margin-left: 68em;
-	width: 30em;
-}
+
 .navbar {
 	margin-top: 0;
 }
@@ -105,9 +141,15 @@ body {
 .intro-message {
 	font-size: 10em;
 	text-align: center;
-	position: center;
+	position: relative center;
 	margin-top: 9%;
-	width: 100%;
+	margin-left: 5%;
+	width: 90%;
+}
+.header-name {
+	margin-left: 75%;
+	width: 30em;
+	position: relative;
 }
 
 /* About Me Page */
@@ -115,9 +157,9 @@ body {
 .developement {
 	background-image: url("../img/bubble1.jpg");
 	background-size: 100% 100%;
-	margin-top: 15%;
+	margin-top: 13%;
 	margin-left: 20%;
-	position: absolute;
+	position: relative;
 	width: 30em;
 	height: 30em;
 	text-align: center;
@@ -137,9 +179,9 @@ body {
 .career {
 	background-image: url("../img/bubble1.jpg");
 	background-size: 100% 100%;
-	margin-top: 29%;
+	margin-top: -10%;
 	margin-left: 55%;
-	position: absolute;
+	position: relative;
 	width: 30em;
 	height: 30em;
 	text-align: center;
@@ -162,7 +204,7 @@ body {
 	width: 12em;
 	height: 12em;
 	border-radius: 90px;
-	margin-top: 80em;
+	margin-top: 5%;
 	margin-left: 5em;
 	position: relative;
 	display: inline-block;
@@ -186,8 +228,8 @@ body {
 	margin-left: 28%;
 }
 .works p {
-	position: absolute;
-	margin-top: 22.5em;
+	position: relative;
+	margin-top: 10%;
 	margin-left: 43%;
 	font-size: 300%;
 }
