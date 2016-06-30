@@ -168,7 +168,7 @@ body {
 .developement {
 	background-image: url("../img/bubble1.jpg");
 	background-size: 100% 100%;
-	margin-top: 13%;
+	margin-top: 10%;
 	margin-left: 20%;
 	position: relative;
 	width: 26%;
@@ -234,6 +234,14 @@ body {
 	position: relative;
 	display: inline-block;
 }
+.top-row-work:hover {
+	opacity: .8;
+	margin-top: -100%;
+}
+.bottom-row-work:hover {
+	opacity: .8;
+	margin-top: -100%;
+}
 #works-images {
 	position: absolute;
 	width: 85%;
@@ -284,25 +292,54 @@ form {
 	margin-top: 40%;
 	margin-left: 80%;
 }
+.bubbles1 img {
+	width: 80%;
+	height: 80%;
+	margin: 13% 0 0 13%;
+}
 .bubbles2 {
 	margin-top: 60%;
 	margin-left: 50%;
+}
+.bubbles2 img {
+	width: 80%;
+	height: 80%;
+	margin: 13% 0 0 13%;
 }
 .bubbles3 {
 	margin-top: 30%;
 	margin-left: 20%;
 }
+.bubbles3 img {
+	width: 80%;
+	height: 65%;
+	margin: 20% 0 0 13%;
+}
 .bubbles4 {
 	margin-top: 7%;
 	margin-left: 40%;
+}
+.bubbles4 img {
+	width: 80%;
+	height: 80%;
+	margin: 13% 0 0 13%;
 }
 .bubbles5 {
 	margin-top: 90%;
 	margin-left: 10%;
 }
+.bubbles5 img {
+	width: 80%;
+	height: 80%;
+	margin: 13% 0 0 13%;
+}
 .bubbles6 {
 	margin-top: 95%;
 	margin-left: 80%;
 }
-
+.bubbles6 img {
+	width: 80%;
+	height: 80%;
+	margin: 13% 0 0 13%;
+}
 

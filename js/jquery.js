@@ -1,5 +1,5 @@
 
-$(document).ready(function(){;
+$(document).ready(function(){
 	$(".navbar ul").hide();
 	$(".navbar").hover(function(){
     	$(".navbar ul").slideDown();
@@ -28,7 +28,7 @@ $(document).ready(function(){;
     	$('html, body').animate({
         	scrollTop: $("#contact-page").offset().top
     	}, 1500);
-	});
+    });
 
 	//Parallax Bubbles
 window.requestAnimationFrame = window.requestAnimationFrame
@@ -46,11 +46,11 @@ var bubble6 = document.getElementById('bubbles6')
  
 function parallaxbubbles(){
  var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically 
- bubble1.style.top = -scrolltop * .7 + 'px' // move bubble1 at 20% of scroll rate
- bubble2.style.top = -scrolltop * .6 + 'px' // move bubble2 at 50% of scroll rate
- bubble3.style.top = -scrolltop * .7 + 'px' // move bubble1 at 20% of scroll rate
- bubble4.style.top = -scrolltop * .6 + 'px' // move bubble2 at 50% of scroll rate
- bubble5.style.top = -scrolltop * .7 + 'px' // move bubble1 at 20% of scroll rate
+ bubble1.style.top = -scrolltop * .6 + 'px' // move bubble1 at 20% of scroll rate
+ bubble2.style.top = -scrolltop * .5 + 'px' // move bubble2 at 50% of scroll rate
+ bubble3.style.top = -scrolltop * .6 + 'px' // move bubble1 at 20% of scroll rate
+ bubble4.style.top = -scrolltop * .5 + 'px' // move bubble2 at 50% of scroll rate
+ bubble5.style.top = -scrolltop * .6 + 'px' // move bubble1 at 20% of scroll rate
  bubble6.style.top = -scrolltop * .6 + 'px' // move bubble2 at 50% of scroll rate
 }
  
