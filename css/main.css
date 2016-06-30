@@ -150,7 +150,7 @@ body {
 /* Intro Page Message */
 
 .intro-message {
-	font-size: 10em;
+	font-size: 1000%;
 	text-align: center;
 	position: relative center;
 	margin-top: 9%;
@@ -168,22 +168,24 @@ body {
 .developement {
 	background-image: url("../img/bubble1.jpg");
 	background-size: 100% 100%;
-	margin-top: 10%;
+	margin-top: 13%;
 	margin-left: 20%;
 	position: relative;
-	width: 30em;
+	width: 26%;
 	height: 30em;
 	text-align: center;
+	border-radius: 100em;
 }
 .developement h2 {
 	text-align: center;
 }
 .developement p {
-	font-size: 130%;
-	width: 85%;
-	margin-left: 5%;
+	font-size: 125%;
+	width: 80%;
+	margin-left: 10%;
 	margin-top: 1em;
 	font-family: 'Droid Sans', sans-serif;
+	position: relative;
 }
 /* Career Page */
 
@@ -193,7 +195,7 @@ body {
 	margin-top: -10%;
 	margin-left: 55%;
 	position: relative;
-	width: 30em;
+	width: 26%;
 	height: 30em;
 	text-align: center;
 }
@@ -291,8 +293,8 @@ form {
 	margin-left: 20%;
 }
 .bubbles4 {
-	margin-top: 10%;
-	margin-left: 10%;
+	margin-top: 7%;
+	margin-left: 40%;
 }
 .bubbles5 {
 	margin-top: 90%;
