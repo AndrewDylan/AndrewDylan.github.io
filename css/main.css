@@ -136,6 +136,16 @@ body {
 
 .navbar li a:hover{
 }
+.nav-button {
+	background-color: transparent;
+	border: none;
+	margin-top: 35%;
+	font-size: 125%;
+	color: black;
+}
+.nav-button:hover {
+	color: blue;
+}
 
 /* Intro Page Message */
 
@@ -256,4 +266,41 @@ form {
 	width: 100%;
 	height: 50%;
 }
+
+/* Parallax Bubbles */
+#bubbles1, #bubbles2, #bubbles3, #bubbles4, #bubbles5, #bubbles6 {
+ width: 10em;
+ height: 10em;
+ top: 0;
+ left: 0;
+ position: fixed;
+ background-image: url("../img/bubble2.jpg");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+.bubbles1 {
+	margin-top: 40%;
+	margin-left: 80%;
+}
+.bubbles2 {
+	margin-top: 60%;
+	margin-left: 50%;
+}
+.bubbles3 {
+	margin-top: 30%;
+	margin-left: 20%;
+}
+.bubbles4 {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.bubbles5 {
+	margin-top: 90%;
+	margin-left: 10%;
+}
+.bubbles6 {
+	margin-top: 95%;
+	margin-left: 80%;
+}
+
 
